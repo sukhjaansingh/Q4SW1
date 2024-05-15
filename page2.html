@@ -26,10 +26,16 @@
 </head>
 <body>
 
-    <center><img src="money.png" width="400" height="350"><center>
+    <center><img src="https://img.freepik.com/free-psd/realistic-money-element_23-2150396386.jpg" width="400" height="350"><center>
 
     <h1><FONT COLOR="#FFFFFF"> The equivalent amount of 100 pesos in Euro is .</h1>
+      <span class="" id="sum">1.60</span>
+    <script>
+      var peso = 100;
+      var euro = 62.43;
+      var product = peso / euro;
 
-    <center><mark>1.64</mark></center>
+      document.getElementById("sum").innerHTML = product;
+    </script>
 
     <a href="index.html"><button type="submit" class="btn btn-warning">Back to Main Page</button></a>
